@@ -207,15 +207,3 @@ Once the server is running, you can test the endpoints:
 1. **Health Check**: Visit `http://localhost:5000/health`
 2. **Get All Media**: Visit `http://localhost:5000/api/media`
 3. **Use curl or Postman** for POST, PUT, DELETE operations
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-ISC
