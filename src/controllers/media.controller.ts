@@ -36,7 +36,7 @@ export const createMedia = async (req: Request, res: Response) => {
     console.error('Create media error:', error);
     res.status(500).json({
       success: false,
-      error: 'Failed to create media'
+      error: error || 'Failed to create media'
     });
   }
 };
