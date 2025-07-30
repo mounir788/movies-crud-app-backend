@@ -5,11 +5,11 @@
     "moduleResolution": "Node",
     "rootDir": "src",
     "outDir": "dist",
-
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "include": ["src", "prisma/**/*.ts"]
+  "include": ["src"], // ✅ only compile application code
+  "exclude": ["node_modules", "prisma"] // ✅ don't compile prisma scripts
 }
