@@ -8,9 +8,9 @@ datasource db {
 }
 
 model Media {
-  id        String   @id @default(uuid())
+  id        String   @id @default(uuid()) @db.Char(36)
   title     String
-  type      String   // "Movie" or "TV Show"
+  type      String
   director  String
   budget    String
   location  String

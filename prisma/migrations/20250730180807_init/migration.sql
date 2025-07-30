@@ -1,6 +1,6 @@
 -- CreateTable
 CREATE TABLE `Media` (
-    `id` VARCHAR(191) NOT NULL,
+    `id` CHAR(36) NOT NULL,
     `title` VARCHAR(191) NOT NULL,
     `type` VARCHAR(191) NOT NULL,
     `director` VARCHAR(191) NOT NULL,
